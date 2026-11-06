@@ -1,0 +1,7 @@
+## calculate LCM otf two numbers
+import math
+num1 = int(input("Enter a number:"))
+num2 = int(input("Enter second number: "))
+
+lcm = abs( num1 * num2 ) // math.gcd(num1, num2)
+print(f"Lcm of two numbers is: {lcm}")
